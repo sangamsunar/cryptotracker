@@ -3,7 +3,7 @@ import { Home } from "./pages/Home";
 import { CoinDetail } from "./pages/CoinDetail";
 function App() {
   return (
-    <BrowserRouter basename="/cryptotracker">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
 
